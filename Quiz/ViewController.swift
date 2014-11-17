@@ -9,7 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var questionLabel: UILabel!
 
+    @IBOutlet weak var answerLabel: UILabel!
+    
+    @IBAction func showQuestion(sender:AnyObject) {
+        
+    }
+    
+    @IBAction func showAnswer(sender: AnyObject) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
