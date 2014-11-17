@@ -13,6 +13,7 @@
 		2166D42F1A1A62C100619BD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2166D42E1A1A62C100619BD3 /* Images.xcassets */; };
 		2166D4321A1A62C100619BD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2166D4301A1A62C100619BD3 /* LaunchScreen.xib */; };
 		2166D43E1A1A62C100619BD3 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166D43D1A1A62C100619BD3 /* QuizTests.swift */; };
+		2166D4481A1A824100619BD3 /* YellowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166D4471A1A824100619BD3 /* YellowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2166D4371A1A62C100619BD3 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2166D43C1A1A62C100619BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2166D43D1A1A62C100619BD3 /* QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTests.swift; sourceTree = "<group>"; };
+		2166D4471A1A824100619BD3 /* YellowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YellowView.swift; path = ../YellowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2166D4271A1A62C100619BD3 /* AppDelegate.swift */,
+				2166D4471A1A824100619BD3 /* YellowView.swift */,
 				2166D4291A1A62C100619BD3 /* ViewController.swift */,
 				2166D42B1A1A62C100619BD3 /* Main.storyboard */,
 				2166D42E1A1A62C100619BD3 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2166D4481A1A824100619BD3 /* YellowView.swift in Sources */,
 				2166D42A1A1A62C100619BD3 /* ViewController.swift in Sources */,
 				2166D4281A1A62C100619BD3 /* AppDelegate.swift in Sources */,
 			);
